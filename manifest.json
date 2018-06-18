@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name"            : "fb3",
+  "version"         : "1.0",
+  "content_scripts" : [ { "matches": [ "*://*.facebook.com/*" ],
+                          "js"     : [ "fb3.js"               ]  } ]
+}
+
